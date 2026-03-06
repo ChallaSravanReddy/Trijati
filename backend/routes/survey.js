@@ -25,6 +25,15 @@ router.post('/', async (req, res) => {
     `INSERT INTO survey_responses
       (name, email, age_group, gender, shopping_platform, biggest_problem, shopping_frequency, ai_interest, early_customer)
      VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)
+     ON CONFLICT (email) DO UPDATE SET 
+      name = EXCLUDED.name,
+      age_group = EXCLUDED.age_group,
+      gender = EXCLUDED.gender,
+      shopping_platform = EXCLUDED.shopping_platform,
+      biggest_problem = EXCLUDED.biggest_problem,
+      shopping_frequency = EXCLUDED.shopping_frequency,
+      ai_interest = EXCLUDED.ai_interest,
+      early_customer = EXCLUDED.early_customer
      RETURNING *`,
     [
       name,

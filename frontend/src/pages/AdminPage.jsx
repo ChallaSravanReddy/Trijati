@@ -34,7 +34,7 @@ export default function AdminPage() {
     <div className="admin-page">
       {/* Navbar */}
       <nav className="navbar">
-        <Link to="/" className="navbar-logo">✦ Tanmaya</Link>
+        <Link to="/" className="navbar-logo"> Trijati</Link>
         <ul className="nav-links">
           <li><Link to="/">Home</Link></li>
           <li><Link to="/survey">Survey</Link></li>

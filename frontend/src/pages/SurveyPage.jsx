@@ -93,12 +93,12 @@ export default function SurveyPage() {
           <div className="success-icon">🎉</div>
           <h2>You're All Set!</h2>
           {form.early_customer && (
-            <div className="success-badge">⭐ Early Tanmaya Customer</div>
+            <div className="success-badge">⭐ Early Trijati Customer</div>
           )}
           <p>
             Thank you! {form.early_customer
-              ? 'You are now registered as an Early Tanmaya Customer. We will notify you when the AI stylist launches.'
-              : 'We appreciate your feedback. We\'ll keep you posted as Tanmaya develops.'}
+              ? 'You are now registered as an Early Trijati Customer. We will notify you when the AI stylist launches.'
+              : 'We appreciate your feedback. We\'ll keep you posted as Trijati develops.'}
           </p>
           <Link to="/" className="btn-primary">← Back to Home</Link>
         </div>
@@ -110,7 +110,7 @@ export default function SurveyPage() {
     <div className="survey-page">
       {/* Navbar */}
       <nav className="navbar">
-        <Link to="/" className="navbar-logo">✦ Tanmaya</Link>
+        <Link to="/" className="navbar-logo">✦ Trijati</Link>
         <ul className="nav-links">
           <li><Link to="/">Home</Link></li>
         </ul>
@@ -236,9 +236,9 @@ export default function SurveyPage() {
               onChange={handleChange}
             />
             <div>
-              <div className="early-label">⭐ Get Early Access to Tanmaya</div>
+              <div className="early-label">⭐ Get Early Access to Trijati</div>
               <div className="early-sub">
-                Be among the first to try Tanmaya when it launches. We'll notify you personally.
+                Be among the first to try Trijati when it launches. We'll notify you personally.
               </div>
             </div>
           </label>

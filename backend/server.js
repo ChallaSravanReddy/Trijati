@@ -25,5 +25,6 @@ app.use((err, req, res, next) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Tanmaya backend server running on http://localhost:${PORT}`);
+  console.log(`🚀 Tanmaya backend server running on http://localhost:${PORT}`);
+  console.log(`📡 Health check: http://localhost:${PORT}/api/health`);
 });

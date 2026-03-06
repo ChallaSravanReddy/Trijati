@@ -61,7 +61,7 @@ export default function LandingPage() {
     <>
       {/* NAVBAR */}
       <nav className="navbar">
-        <div className="navbar-logo">✦ Tanmaya</div>
+        <div className="navbar-logo">TRIJATI</div>
         <ul className="nav-links">
           <li><a href="#problems">Problems</a></li>
           <li><a href="#how">How It Works</a></li>
@@ -145,7 +145,7 @@ AI-powered body and color analysis to help you find outfits that make you feel c
       <section id="how">
         <div className="section">
           <span className="section-label">Solution</span>
-          <h2 className="section-title">How Tanmaya Works</h2>
+          <h2 className="section-title">How Trijati Works</h2>
           <p className="section-subtitle">
             Four smart steps that turn your camera into a personal fashion specialist.
           </p>
@@ -186,13 +186,13 @@ AI-powered body and color analysis to help you find outfits that make you feel c
 
       {/* FOOTER */}
       <footer className="footer">
-        <div className="footer-logo">✦ Tanmaya</div>
+        <div className="footer-logo">Trijati</div>
         <p className="footer-tagline">AI Fashion Assistant · Powered by Computer Vision & Deep Learning</p>
         <div style={{ display: 'flex', justifyContent: 'center', gap: '1rem', flexWrap: 'wrap', marginBottom: '1.5rem' }}>
           <span className="privacy-note">🔒 Your webcam images are never stored or uploaded</span>
-          <span className="privacy-note">✦ Privacy-first by design</span>
+          <span className="privacy-note"> Privacy-first by design</span>
         </div>
-        <p className="footer-copy">© 2026 Tanmaya. All rights reserved.</p>
+        <p className="footer-copy">© 2026 Trijati. All rights reserved.</p>
       </footer>
     </>
   );
